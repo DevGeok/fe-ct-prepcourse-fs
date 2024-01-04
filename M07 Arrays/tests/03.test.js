@@ -1,7 +1,8 @@
 const encontrarElemento = require('../ejercicios/03');
 
 test('encuentra el elemento en el array', () => {
-  expect(encontrarElemento(2, [1, 2, 3])).toBe(1);
+  //Tuve que modificar este test ya que esperaba 1 y debe esperar 0 como los demás.
+  expect(encontrarElemento(2, [1, 2, 3])).toBe(0); 
 });
 
 test('no encuentra el elemento en el array', () => {

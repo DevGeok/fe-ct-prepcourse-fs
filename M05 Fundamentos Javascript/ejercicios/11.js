@@ -10,9 +10,4 @@ function esMayorDeEdad(fechaNacimiento) {
     return true
   } else return false;
 };
-
-console.log(esMayorDeEdad(new Date(1989, 1, 31)));
-
-
-
 module.exports = esMayorDeEdad;
