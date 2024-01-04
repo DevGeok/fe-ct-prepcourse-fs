@@ -13,5 +13,6 @@ function encontrarPrimerMultiploDeN(n, secuencia) {
     }
   }
   if (primerMultiploDeN !== null) return primerMultiploDeN; else return undefined; 
+}
 
 module.exports = encontrarPrimerMultiploDeN;
