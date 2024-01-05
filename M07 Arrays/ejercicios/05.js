@@ -12,6 +12,6 @@ var str5 ="";
   )
 if (str5.length>5) return str5; else return undefined;
 }
-obtenerPrimerStringLargo(["hello", "world", "this", "is", "a", "test"]);
+
 
 module.exports = obtenerPrimerStringLargo;
