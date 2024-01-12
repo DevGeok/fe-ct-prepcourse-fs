@@ -8,9 +8,8 @@ function esAnagrama(str1, str2) {
   str1= str1.toLowerCase();
   str2= str2.toLowerCase();
   
-  if ((str1.split('').sort()).join() == (str2.split('').sort()).join())
-    return true; 
-    return false;
+  (str1.split('').sort()).join() == (str2.split('').sort()).join();
+
 }
 
 
@@ -18,18 +17,3 @@ function esAnagrama(str1, str2) {
 
 module.exports = esAnagrama;
 
-esAnagrama('hola', 'hola');
-
-esAnagrama('hola', 'aloh');
-
-esAnagrama('hola', 'holaa');
-
-esAnagrama('hola', 'holb');
-
-esAnagrama('hola mundo', 'mundo hola');
-
-esAnagrama('Hola', 'aloh');
-
-esAnagrama('hola!', '!aloh');
-
-esAnagrama('', '');
